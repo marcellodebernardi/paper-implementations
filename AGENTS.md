@@ -6,6 +6,7 @@
   evaluation entry points, and a local `README.md`.
 - `common/`: infrastructure genuinely shared across multiple reproductions.
 - `notebooks/`: exploratory Jupyter notebooks and quick experiments.
+- `resources/templates/`: reusable starting points for paper documentation.
 - `pyproject.toml` and `uv.lock`: Python configuration and pinned dependencies.
 
 Keep paper-specific code inside its paper directory. Do not move speculative abstractions into `common/` until more than
@@ -14,13 +15,20 @@ one implementation needs them.
 ## Setup and Development Commands
 
 - `uv venv`: create the local virtual environment.
-- `uv sync`: install locked runtime and development dependencies.
+- `make setup`: install locked runtime and development dependencies.
 - `uv run jupyter lab`: start JupyterLab for notebook work.
-- `uv run ruff check .`: run lint checks.
-- `uv run ruff format .`: format Python files.
+- `make format`: format Python files and apply safe lint fixes.
+- `make lint`: run lint checks.
+- `make check`: verify formatting and linting without changing files.
 - `uv run pre-commit run --all-files`: run all configured repository checks.
 
 There is currently no package build step.
+
+## Starting a Paper
+
+Create `papers/<year>-<slug>/` and copy `resources/templates/paper-readme.md` to its `README.md`. Adapt the implementation
+layout to the paper rather than creating unused standard directories. Agents should use this template when scaffolding
+a new paper and run `make check` after code changes.
 
 ## Coding Style & Naming Conventions
 
