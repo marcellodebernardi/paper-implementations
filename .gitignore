@@ -78,6 +78,9 @@ target/
 # Jupyter Notebook
 .ipynb_checkpoints
 
+# Local paper references
+papers/**/paper.pdf
+
 # IPython
 profile_default/
 ipython_config.py

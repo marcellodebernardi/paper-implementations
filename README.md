@@ -30,7 +30,7 @@ This project's dependencies are managed using `uv`. In order to get started, ens
 
 ```shell
 uv venv
-uv sync
+make setup
 ```
 
 You can then either activate the virtual environment with `source .venv/bin/activate` and run `python` commands, or
@@ -38,7 +38,15 @@ use the `uv run` command as per your own preference.
 
 
 ## 3. Quickstart
-TODO: instructions for quickly re-running an experiment go here
+
+Create a new paper directory and README from the repository template with:
+
+```shell
+make new-paper PAPER=2015-residual-learning
+```
+
+Each paper's README documents its own setup, training and evaluation commands. Run `make check` to verify repository
+formatting and linting.
 
 
 ## 4. Structure
@@ -46,16 +54,18 @@ TODO: instructions for quickly re-running an experiment go here
 papers/<year>-<slug>/   independent, self-contained implementation of a single paper
 common/                 infrastructure shared across papers
 notebooks/              scratchpad for exploration and quick tests
+resources/templates/    reusable documentation templates
 ```
 
 Generally each paper's directory contains the core algorithm, training and evaluation entry points, and 
-a `README.md` with a brief description and reproduction analysis.
+a `README.md` with a brief description and reproduction analysis. A local `paper.pdf` may be placed beside the
+implementation for reference; it is ignored by Git, so the README should link to an immutable version of the paper.
 
 Notebooks are plain `jupyter` since the GitHub web interface renders them natively.
 
 
 ## 5. Role of Coding Agents
-In order to facilitate the pedagogical aims mention in the [introduction](#1-introduction), a few self-imposed
+In order to facilitate the pedagogical aims mentioned in the [introduction](#1-introduction), a few self-imposed
 limitations in the use of coding agents should be followed.
 
 AI **should** be used for:
@@ -63,7 +73,7 @@ AI **should** be used for:
 2. Shared boilerplate code such as training infrastructure
 3. Learning assistance, such as finding errors or quizzing the user
 
-AI **shout not** be used for:
+AI **should not** be used for:
 1. Writing the core steps of the algorithms being re-implemented
 2. Understanding the outcomes of the re-implementation attempt
 
@@ -84,4 +94,3 @@ a publication such as a blog or paper, please cite this repository:
   howpublished = {\url{https://github.com/marcellodebernardi/paper-implementations}},
 }
 ```
-

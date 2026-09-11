@@ -20,15 +20,17 @@ one implementation needs them.
 - `make format`: format Python files and apply safe lint fixes.
 - `make lint`: run lint checks.
 - `make check`: verify formatting and linting without changing files.
+- `make new-paper PAPER=2015-residual-learning`: create a paper directory from the README template.
 - `uv run pre-commit run --all-files`: run all configured repository checks.
 
 There is currently no package build step.
 
 ## Starting a Paper
 
-Create `papers/<year>-<slug>/` and copy `resources/templates/paper-readme.md` to its `README.md`. Adapt the implementation
-layout to the paper rather than creating unused standard directories. Agents should use this template when scaffolding
-a new paper and run `make check` after code changes.
+Run `make new-paper PAPER=<year>-<slug>`, then adapt the implementation layout to the paper rather than creating unused
+standard directories. Agents should use this command when scaffolding a paper and run `make check` after code changes.
+When consulting the paper, use a local `paper.pdf` if present; otherwise, follow the immutable paper link in that
+directory's `README.md`.
 
 ## Coding Style & Naming Conventions
 
