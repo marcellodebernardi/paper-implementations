@@ -40,8 +40,18 @@ use the `uv run` command as per your own preference.
 ## 3. Quickstart
 TODO: instructions for quickly re-running an experiment go here
 
+
 ## 4. Structure
-TODO: quick (human-oriented) guide to project structure goes here
+```
+papers/<year>-<slug>/   independent, self-contained implementation of a single paper
+common/                 infrastructure shared across papers
+notebooks/              scratchpad for exploration and quick tests
+```
+
+Generally each paper's directory contains the core algorithm, training and evaluation entry points, and 
+a `README.md` with a brief description and reproduction analysis.
+
+Notebooks are plain `jupyter` since the GitHub web interface renders them natively.
 
 
 ## 5. Role of Coding Agents
