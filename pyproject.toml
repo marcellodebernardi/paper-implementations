@@ -1,0 +1,13 @@
+[project]
+name = "paper-implementations"
+version = "0.1.0"
+description = "Collection of AI, ML and robotics paper reproducibility work"
+readme = "README.md"
+authors = [
+    { name = "Marcello De Bernardi", email = "marcello.logins@outlook.com" }
+]
+requires-python = ">=3.13,<3.14"
+dependencies = []
+
+[tool.uv]
+package = false
