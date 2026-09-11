@@ -58,8 +58,7 @@ resources/templates/    reusable documentation templates
 ```
 
 Generally each paper's directory contains the core algorithm, training and evaluation entry points, and 
-a `README.md` with a brief description and reproduction analysis. A local `paper.pdf` may be placed beside the
-implementation for reference; it is ignored by Git, so the README should link to an immutable version of the paper.
+a `README.md` with a brief description and reproduction analysis.
 
 Notebooks are plain `jupyter` since the GitHub web interface renders them natively.
 
