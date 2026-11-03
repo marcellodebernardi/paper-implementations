@@ -238,3 +238,5 @@ __marimo__/
 
 # paper-implementations specifics
 **/data/
+**/wandb/
+**/checkpoints/
