@@ -94,7 +94,7 @@ my RL understanding (phase 2), and learning about algorithms relevant to robotic
 
 ### Phase I: Deep learning and transformer fundamentals
 
-- [ ] [**Deep Residual Learning for Image Recognition**](papers/2015-deep-residual-learning/README.md): ResNet (He et
+- [x] [**Deep Residual Learning for Image Recognition**](papers/2015-deep-residual-learning/README.md): ResNet (He et
   al., 2015)
 - [ ] **Adam, Batch Normalization and Dropout** (Kingma and Ba, 2014; Ioffe and Szegedy, 2015; Srivastava et al.,
     2014)
