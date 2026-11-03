@@ -2,6 +2,12 @@
 
 Collection of AI, ML and robotics paper reproducibility work
 
+## Completed reproductions
+
+| Paper                                                          | Result                                                             | Details                                                |
+|----------------------------------------------------------------|--------------------------------------------------------------------|--------------------------------------------------------|
+| Deep Residual Learning for Image Recognition (He et al., 2015) | ✅ Reproduced: matches the paper's CIFAR-10 results across 5 seeds | [README](papers/2015-deep-residual-learning/README.md) |
+
 ## 1. Introduction
 
 This project is a personal collection of reproducibility experiments covering a selection of milestone papers from
@@ -85,7 +91,25 @@ AI **should not** be used for:
 In other words: the 5% of code implementing what you want to *learn* should be written by hand; delegate the remaining
 95% to AI.
 
-## 6. Roadmap
+## 6. Citation
+
+The code in this repository is available under the MIT License (see [LICENSE](LICENSE)). If using this work in
+a publication such as a blog or paper, please cite this repository:
+
+```bibtex
+@software{debernardi2026paperimpl,
+  author = {De Bernardi, Marcello},
+  title = {Paper Implementations: A collection of learning-oriented paper reproducibility experiments},
+  year = {2026},
+  publisher = {GitHub},
+  howpublished = {\url{https://github.com/marcellodebernardi/paper-implementations}},
+}
+```
+
+## 7. Planned work
+
+<details>
+<summary>Roadmap of planned reproductions (click to expand)</summary>
 
 The checklist below outlines which papers I've selected as my "curriculum" for implementation and reproduction.
 This "roadmap" is split into three phases, aimed at refreshing my memory of ML fundamentals (phase 1), furthering
@@ -131,17 +155,4 @@ my RL understanding (phase 2), and learning about algorithms relevant to robotic
 - [ ] ⭐ **Diffusion Policy: Visuomotor Policy Learning via Action Diffusion** (Chi et al., 2023)
 - [ ] **Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware**: ACT and ALOHA (Zhao et al., 2023)
 
-## 7. Citation
-
-The code in this repository is available under the MIT License (see [LICENSE](LICENSE)). If using this work in
-a publication such as a blog or paper, please cite this repository:
-
-```bibtex
-@software{,
-  author = {De Bernardi, Marcello},
-  title = {Paper Implementations: A collection of learning-oriented paper reproducibility experiments},
-  year = {2026},
-  publisher = {GitHub},
-  howpublished = {\url{https://github.com/marcellodebernardi/paper-implementations}},
-}
-```
+</details>
