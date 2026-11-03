@@ -2,6 +2,7 @@
 
 setup:
 	uv sync
+	uv run pre-commit install --install-hooks
 
 format:
 	uv run ruff check --fix .

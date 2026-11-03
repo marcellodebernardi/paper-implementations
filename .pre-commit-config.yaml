@@ -5,3 +5,8 @@ repos:
       - id: ruff
         args: [--fix]
       - id: ruff-format
+  # Builds gitleaks from source; pre-commit downloads its own Go toolchain if Go is not installed.
+  - repo: https://github.com/gitleaks/gitleaks
+    rev: v8.30.1
+    hooks:
+      - id: gitleaks

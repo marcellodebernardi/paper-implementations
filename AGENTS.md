@@ -15,7 +15,8 @@ one implementation needs them.
 ## Setup and Development Commands
 
 - `uv venv`: create the local virtual environment.
-- `make setup`: install locked runtime and development dependencies.
+- `make setup`: install locked runtime and development dependencies, and install the pre-commit hooks (Ruff and
+  gitleaks).
 - `uv run jupyter lab`: start JupyterLab for notebook work.
 - `make format`: format Python files and apply safe lint fixes.
 - `make lint`: run lint checks.

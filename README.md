@@ -34,6 +34,10 @@ uv venv
 make setup
 ```
 
+`make setup` also installs the git pre-commit hooks, which lint and format staged Python files with Ruff and scan
+staged changes for secrets with gitleaks. The first run takes a few minutes, as pre-commit builds gitleaks (fetching its
+own Go toolchain if needed).
+
 You can then either activate the virtual environment with `source .venv/bin/activate` and run `python` commands, or
 use the `uv run` command as per your own preference.
 
