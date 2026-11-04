@@ -2,11 +2,12 @@
 
 Collection of AI, ML and robotics paper reproducibility work
 
-## Completed reproductions
+## Reproductions
 
-| Paper                                                          | Result                                                             | Details                                                |
-|----------------------------------------------------------------|--------------------------------------------------------------------|--------------------------------------------------------|
-| Deep Residual Learning for Image Recognition (He et al., 2015) | ✅ Reproduced: matches the paper's CIFAR-10 results across 5 seeds | [README](papers/2015-deep-residual-learning/README.md) |
+| Paper                                                          | Status      | Result                                                             | Details                                                |
+|----------------------------------------------------------------|-------------|--------------------------------------------------------------------|--------------------------------------------------------|
+| Deep Residual Learning for Image Recognition (He et al., 2015) | Completed   | ✅ Reproduced: matches the paper's CIFAR-10 results across 5 seeds | [README](papers/2015-deep-residual-learning/README.md) |
+| Deep Q-Networks (Mnih et al., 2013 and 2015)                   | In progress | —                                                                  | [README](papers/2015-deep-q-networks/README.md)        |
 
 ## 1. Introduction
 
