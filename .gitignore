@@ -78,9 +78,8 @@ target/
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# Local paper references
-papers/**/paper.pdf
-papers/**/references/*.pdf
+# PDFs are local references only; never commit them.
+*.[pP][dD][fF]
 
 # IPython
 profile_default/

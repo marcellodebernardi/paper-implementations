@@ -2,7 +2,7 @@
 
 ## Reference
 
-- **Paper:** <immutable link to the exact paper version>
+- **Paper:** <immutable link to the exact paper version at its original source (versioned arXiv URL or publisher DOI)>
 - **Authors:** <authors>
 - **Published:** <venue and year>
 

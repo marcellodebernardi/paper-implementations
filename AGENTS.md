@@ -32,7 +32,9 @@ Run `make new-paper PAPER=<year>-<slug>`, then adapt the implementation layout t
 standard directories. Agents should use this command when scaffolding a paper and run `make check` after code changes.
 Store local paper PDFs in each paper directory's `references/` subdirectory, using descriptive filenames. When
 consulting a paper, use its local PDF if present; otherwise, follow the immutable paper link in that directory's
-`README.md`.
+`README.md`. Never track or commit PDFs; keep them local and ignored by Git. All paper links in READMEs must
+point to the original source (such as a versioned arXiv page or publisher DOI), including page-specific citations,
+rather than local files or third-party mirrors.
 
 ## Coding Style & Naming Conventions
 
