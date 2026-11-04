@@ -6,9 +6,13 @@
 - **Authors:** <authors>
 - **Published:** <venue and year>
 
+## Key Concepts
+
+Explain the paper's central ideas, the problem they address, and the proposed approach.
+
 ## Reproduction Goal
 
-Describe the paper's central contribution, the result being reproduced, and any deliberate simplifications.
+Describe the specific results being reproduced, the scope of the experiment, and any deliberate simplifications.
 
 ## Implementation
 
@@ -27,4 +31,10 @@ Document any data, environment, or dependency preparation beyond the repository-
 
 ## Results
 
-Record the main metrics, comparison with the paper, and a brief analysis of the outcome.
+Record the main metrics and comparison with the paper, including tables or plots where useful. Describe how the
+metrics were measured and report variability across runs where applicable.
+
+## Conclusion
+
+Assess whether the results meet the [reproduction goal](#reproduction-goal), explain what they support, and discuss
+limitations and questions outside the scope of the reproduction.
