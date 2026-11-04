@@ -3,6 +3,7 @@
 ## Reference
 
 - **Paper:** [arXiv:1512.03385v1](https://arxiv.org/abs/1512.03385v1)
+- **Local PDF:** [2015-deep-residual-learning.pdf](references/2015-deep-residual-learning.pdf) (if downloaded)
 - **Authors:** Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun
 - **Published:** arXiv preprint, 2015
 

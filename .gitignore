@@ -80,6 +80,7 @@ target/
 
 # Local paper references
 papers/**/paper.pdf
+papers/**/references/*.pdf
 
 # IPython
 profile_default/

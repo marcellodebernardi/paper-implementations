@@ -30,8 +30,9 @@ There is currently no package build step.
 
 Run `make new-paper PAPER=<year>-<slug>`, then adapt the implementation layout to the paper rather than creating unused
 standard directories. Agents should use this command when scaffolding a paper and run `make check` after code changes.
-When consulting the paper, use a local `paper.pdf` if present; otherwise, follow the immutable paper link in that
-directory's `README.md`.
+Store local paper PDFs in each paper directory's `references/` subdirectory, using descriptive filenames. When
+consulting a paper, use its local PDF if present; otherwise, follow the immutable paper link in that directory's
+`README.md`.
 
 ## Coding Style & Naming Conventions
 
